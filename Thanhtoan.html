@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<title>Địa chỉ nhận hàng</title>
+<link rel="stylesheet" href="account1.css">
+<link rel="stylesheet" href="thanhtoann.css">
+</head>
+<body>
+<h3>Địa chỉ nhận hàng</h3>
+<form>
+ <fieldset>
+  <legend><b>Thông tin cá nhân</b></legend>
+    <table>
+     <tr>
+      <td>Họ và tên:</td>
+      <td><input type="text"/>
+     </tr>
+      <td>Tỉnh:</td>
+            <td><select name="Tinh">
+          <option value="01" selected>Hà nội</option>
+          <option value="02">Đắk Lắk</option>
+          <option value="03">Thái Nguyên</option>
+          <option value="04">Cao Bằng</option>
+          <option value="05">Lạng Sơn</option>
+          <option value="06">Thái Bình</option>
+          <option value="07">Bạc Liêu</option>
+          <option value="08">Hải Phòng</option>
+          <option value="09">Bình Thuận</option>
+          <option value="10">Hà Giang</option>
+          <option value="11">Hải Dương</option>
+          <option value="12">Lào Cai</option>
+          </select>
+            <td>Huyện</td>
+          </td>
+            <td><select name="Huyen">
+            <option value="01" selected>Ba Đình</option>
+            <option value="02">Hoàn Kiếm</option>
+            <option value="03">Tây Hồ</option>
+            <option value="04">Cầu Giấy</option>
+            <option value="05">Đống Đa</option>
+            <option value="06">Hoàng Mai</option>
+            <option value="07">Thanh Xuân</option>
+            <option value="08">...</option>
+           </select>
+           </td>
+           <td>Xã</td>
+          <td><select name="Huyen">
+          <option value="01" selected>Thụy Khuê</option>
+          <option value="02">Nghĩa Đô</option>
+          <option value="03">Mai Dịch</option>
+          <option value="04">Yên Hòa</option>
+          <option value="05">Thanh Trì</option>
+          <option value="06">Kim Giang</option>
+          <option value="07">Thanh Trung</option>
+          <option value="08">...</option>
+          </select>
+       </td>
+    </tr>
+     </tr>
+      <td>Địa chỉ:</td>
+      <td><textarea cols="30" rows="1"></textarea></td>
+     </tr>
+      <td>Điện thoại:</td>
+      <td><input type="number" name="number" /></td>
+     </tr>
+      <td>Email:</td>
+       <td><input type="email" name="email" /></td>
+     </tr>
+    </table>
+ </fieldset>
+ <fieldset>
+  <legend>Phương Thức Thanh Toán</legend>
+  <table>
+    <td>Phương Thức Thanh Toán :</td>
+      <td><input type="radio" name="radGioiTinh" value="Nam" checked />Thanh Toán Khi Nhận Hàng
+      <td><input type="radio" name="radGioiTinh" value="Nữ" />Thanh Toán Trực Tiếp
+  </table>
+</fieldset>
+<div>
+    <div class="notifications">
+    </div>
+    <div class="buttons">
+        <button class="btn" id="success">Đặt Hàng</button>
+    </div>
+</div>
+<clear both></clear>
+<a href="minhhoaishop.html">Huỷ</a>
+<script src="thanhcong.js"></script>
+</body>
+</html>
+
+
+

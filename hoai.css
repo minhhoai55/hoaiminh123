@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hihi{
+    color:black;
+    padding: 20px;
+}
+body ,html{
+        padding-bottom: 20px;	
+         height: 100%;
+
+}
+.product{
+    padding: 5px;
+	height: 92%;
+	background: #FFF;
+}
+.product-item img{
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+    
+.name_banner{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(244, 241, 242);
+}
+.account{
+    width: 80%;
+    color: #FFF;
+    text-align: center;
+}
+.header{
+    background-color: rgb(32, 14, 151);
+    width: 98%;
+    text-align: center;
+    margin: 15px 10px
+}
+/* .t1{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+} */
+.hl1{
+    color: azure;
+    background-color: crimson;
+    border: 1px blue dashed;
+    width: 750px; height: 60px;
+    margin: 0px auto;
+    font-size: 20px;
+    padding: 0px 15px 16px 15px 16px;
+    font-weight: bold;
+    border-radius: 20px;
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+    margin : 0px 8px;
+}
+.root>li>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 16px 0px 16px;
+    line-height: 50px;
+    display: block;
+}
+.menu_hh{
+    background-color: rgb(233, 219, 219);
+    float: right;
+}
+.menu_kk{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 219, 219);
+    margin: 0px auto;
+}
+.root>li>a:hover{background-color: rgb(238, 243, 240);
+    color: rgb(172, 131, 99);
+    transform: ease-in 0.40;
+    font-weight: bold;
+}
+.submenu{
+    width: 100px;
+    background-color: cornflowerblue;
+    min-height: 50px;
+    display: none;
+    position: absolute;
+}
+.submenu>li{list-style: none;}
+.submenu>li>a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    line-height: 40px;
+    text-align: 22px;
+}
+.root>li:hover .submenu{
+display: block;
+background-color: #ffffff;
+color: rgb(158, 36, 36);
+transform: ease-im 0,40s;
+
+}
+
+.submenu>li>a:hover{
+    background-color: rgb(12, 15, 12);
+    color: rgb(245, 247, 245);
+    transform:  ease-im 0,40s;
+}
+.tep{
+    font: 30px;
+    color: #be7a7a;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+}
+.bang {
+    border: 1px solid #ffffff;
+    width: 98%;
+    margin: 25px auto;
+}
+td{width: 25%; border: 1px solid #ccc;
+    text-align: center;
+margin: opx auto;}
+.sp2{width: 180px;height: 220px;
+    align-items: center;}
+.sp1{width: 180px;height: 220px;
+    align-items: center;}
+.giacu{background-color: yellow; font-weight: bold;}
+s{color: red;}
+i{color: red;font-weight: bold; 18px}
+.cdc{font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+.heading {
+    background: #4f7fff;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 37px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+}
+.heading a{
+    color: #fff;
+}
+.hd-float.heading {
+	text-align: left;
+	border-radius: 0;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.hd-float.heading .tits {
+	 background-color: #4f7fff;
+    display: inline-block;
+    position: relative;
+    padding: 1.5px 5px;
+    font-size: 15px;
+    text-align: center;
+    width: 24%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+img {
+        max-width: 100%;
+        height: auto;
+}
+
+.anhbia{
+    width: 33.33333%;
+    float: left;
+}
+.anhbep{
+    width:100%;
+    height: 50%;
+}
+#slogan-main {
+    display: block;
+    padding-bottom: 13px
+}
+
+#checkout #slogan-main {
+    display: block;
+    background-color: #eee
+}
+
+#checkout .slogan-body,#tragop .slogan-body {
+    display: none
+}
+
+#checkout .slogan-top {
+    padding-bottom: 15px;
+    font-size: 14px;
+    margin-top: 0;
+    font-weight: 700
+}
+
+.slogan-top {
+    text-align: center;
+    font-size: 20px;
+    clear: both
+}
+
+.slogan-body {
+    background-color: #fff;
+    padding: 15px 0 10px
+}
+
+.row-slogan {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row-slogan a {
+    color: #333 !important
+}
+
+.slogan-item {
+    display: inline-block;
+    width: 32%
+}
+.service-name {
+    font-size: 18px;
+    vertical-align: 18px;
+    margin-left: 5px
+}
+.trend-product-catalog.trend-home-page .product-price.list-product-price {
+    float: unset;
+    text-align: center;
+    width: 100%;
+    font-size: 18px
+}
+.sp-da-ban {
+    width: 100%;
+    text-align: center;
+    background: #f90;
+    background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+    line-height: 16px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 20px;
+    position: relative
+}
+.buyed-text {
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+}
+
+.buyed-progess-no {
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    z-index: 1;
+    height: 16px;
+    border-radius: 20px
+}
+
+.buyed-progess-ele {
+    background: #fff;
+    float: right;
+    position: relative;
+    height: 16px;
+    width: 100%
+}
+
+.buyed-progess-ele-color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ddd
+}
+
+.per0 {
+    width: 100%
+}
+
+.per10 {
+    width: 90%
+}
+
+.per20 {
+    width: 80%
+}
+
+.per30 {
+    width: 70%
+}
+
+.per40 {
+    width: 60%
+}
+
+.per50 {
+    width: 50%
+}
+
+.per60 {
+    width: 40%
+}
+
+.per70 {
+    width: 30%
+}
+
+.per80 {
+    width: 20%
+}
+
+.per90 {
+    width: 10%
+}
+
+.per100 {
+    width: 0%
+}
